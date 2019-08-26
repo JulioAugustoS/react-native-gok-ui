@@ -1,0 +1,75 @@
+{
+  "name": "react-native-gok-ui",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "keywords": [
+    "android",
+    "ios",
+    "react",
+    "native",
+    "react-native",
+    "native-modules",
+    "react-component",
+    "navbar",
+    "packager",
+    "react-native-windows"
+  ],
+  "main": "dist/src/index.js",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "rm -rf dist/* && babel . --out-dir dist --ignore node_modules,dist --source-maps "
+  },
+  "author": {
+    "name": "Julio Augusto",
+    "email": "julioaugustoms@gmail.com",
+    "url": "https://github.com/JulioAugustoS"
+  },
+  "license": "",
+  "peerDependencies": {
+    "react": ">=16.4.1",
+    "react-native": ">=0.56.0",
+    "react-native-windows": "0.41.0-rc.1"
+  },
+  "dependencies": {
+    "print-message": "^2.1.0",
+    "prop-types": "^15.5.10",
+    "react-native-drawer": "2.5.1",
+    "react-native-easy-grid": "0.2.2",
+    "react-native-keyboard-aware-scroll-view": "0.9.1",
+    "react-native-vector-icons": "6.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^24.8.0",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb": "^11.1.0",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-native": "^2.0.0",
+    "eslint-watch": "^5.1.2",
+    "flow-bin": "0.47.0",
+    "husky": "^3.0.0",
+    "jest": "^24.8.0",
+    "react": "16.4.1",
+    "react-native": "^0.60.5",
+    "react-native-vector-icons": "6.1.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+github.com:JulioAugustoS/react-native-gok-ui.git"
+  }
+}

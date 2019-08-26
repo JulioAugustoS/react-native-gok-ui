@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - 'node'
+  - '10.14.2'
+  - '8.14.1'
+  - '6.15.1'
+install:
+  - react-native init AwesomeGokUi
+  - cd AwesomeGokUi
+  - npm install react-native-gok-ui --save
+  - react-native link
+  - react-native run-ios
