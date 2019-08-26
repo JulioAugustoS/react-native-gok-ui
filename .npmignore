@@ -1,0 +1,12 @@
+# Dotfiles
+.babelrc
+.eslintignore
+.eslintrc.json
+.gitattributes
+_config.yml
+
+# Documents
+
+# Test cases
+__tests__
+dist/__tests__
