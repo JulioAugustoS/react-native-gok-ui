@@ -15,10 +15,7 @@
     "packager",
     "react-native-windows"
   ],
-  "main": "dist/src/index.js",
-  "files": [
-    "./dist"
-  ],
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "rm -rf dist/* && babel . --out-dir dist --ignore node_modules,dist --source-maps "
@@ -31,8 +28,7 @@
   "license": "",
   "peerDependencies": {
     "react": ">=16.4.1",
-    "react-native": ">=0.56.0",
-    "react-native-windows": "0.41.0-rc.1"
+    "react-native": ">=0.56.0"
   },
   "dependencies": {
     "print-message": "^2.1.0",
@@ -61,11 +57,6 @@
     "react-native": "^0.60.5",
     "react-native-vector-icons": "6.1.0",
     "react-test-renderer": "16.4.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
   },
   "readmeFilename": "README.md",
   "repository": {
