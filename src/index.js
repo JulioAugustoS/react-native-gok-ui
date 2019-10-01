@@ -1,10 +1,15 @@
-import { Col, Row, Grid } from 'react-native-easy-grid';
-
 import Button from './components/Button';
+import Container from './components/Container';
+import Content from './components/Content';
+import Root from './components/Root';
+import Text from './components/Text';
+import { ToastContainer } from './components/ToastContainer';
 
 export {
-  Col,
-  Row,
-  Grid,
-  Button
+  Button,
+  Container,
+  Content,
+  Root,
+  Text,
+  ToastContainer as Toast
 }
