@@ -5,7 +5,7 @@ const colors = {
   containerBgColor: '#ffffff',
 
   // Primary
-  brandPrimary: Platform.OS === 'ios' ? '#6B76FF' : '#4B54CF',
+  brandPrimary: '#2F80ED',
   brandInfo: '#65C6C4',
   brandSuccess: '#7ED321',
   brandDanger: '#FF6071',
